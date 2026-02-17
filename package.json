@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Search Steam games and view minimum/recommended system requirements.",
   "main": "electron-main.js",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "start": "node server.js",
     "desktop": "electron .",
