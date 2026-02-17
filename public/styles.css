@@ -70,7 +70,7 @@ button {
   border-radius: 10px;
 }
 
-.result-btn {
+.result-link {
   width: 100%;
   display: flex;
   align-items: center;
@@ -78,11 +78,27 @@ button {
   padding: 10px;
   background: transparent;
   color: var(--text);
+  text-decoration: none;
+  border-radius: 10px;
 }
 
-.result-btn img {
+.result-link:hover {
+  background: #f4faf8;
+}
+
+.result-link img {
   width: 120px;
   border-radius: 6px;
+}
+
+.top-nav {
+  margin-bottom: 12px;
+}
+
+.back-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .detail {
@@ -126,7 +142,7 @@ pre {
     grid-template-columns: 1fr;
   }
 
-  .result-btn img {
+  .result-link img {
     width: 88px;
   }
 }
